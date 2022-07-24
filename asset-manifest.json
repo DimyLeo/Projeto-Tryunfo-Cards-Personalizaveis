@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Projeto-Tryunfo-Cards-Personalizaveis/static/css/main.93091e25.css",
+    "main.js": "/Projeto-Tryunfo-Cards-Personalizaveis/static/js/main.a0fb5797.js",
+    "static/media/img-js-new.png": "/Projeto-Tryunfo-Cards-Personalizaveis/static/media/img-js-new.c9297a3e5262eef325fe.png",
+    "index.html": "/Projeto-Tryunfo-Cards-Personalizaveis/index.html",
+    "main.93091e25.css.map": "/Projeto-Tryunfo-Cards-Personalizaveis/static/css/main.93091e25.css.map",
+    "main.a0fb5797.js.map": "/Projeto-Tryunfo-Cards-Personalizaveis/static/js/main.a0fb5797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93091e25.css",
+    "static/js/main.a0fb5797.js"
+  ]
+}
