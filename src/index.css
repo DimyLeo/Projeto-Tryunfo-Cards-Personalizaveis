@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #072424;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.global {
+  background: linear-gradient(90deg, #fafafa 50%, #023031 50%);
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #036b52;
+  border: 8px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  max-height: 600px;
+  padding: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+.card h3 {
+  background-color: #023031;
+  border-radius: 8px 8px 0 0;
+  font-size: 25px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.card h4 {
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px 0px 0px 10px;
+  color: #3d495c;
+  font-weight: 500;
+  height: 28px;
+  padding-right: 13px;
+  padding-left: 8px;
+}
+
+.card h5 {
+  color: #3d495c;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 9px;
+  font-weight: 300;
+  margin-top: -12px;
+  margin-bottom: -6px;
+  margin-left: 8px;
+  width: 250px;
+  text-align: left;
+  transform: rotate(-6.1deg);
+}
+
+.card-baixo {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.imagem {
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+  height: 200px;
+  width: 260px;
+}
+
+.form {
+  background-color: rgb(250, 250, 250);
+  color: #023031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  margin-right: 120px;
+  text-align: left;
+}
+
+.form select {
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  height: 65px;
+}
+
+.input-rari {
+  margin-top: 10px;
+}
+
+.input {
+  border: none;
+  margin: 5px;
+  padding: 6px 10px;
+  width: 250px;
+}
+
+input::placeholder {
+  color: #b1c5c5;
+}
+
+.attrs {
+  border: 1px solid #036b52;
+  margin: 5px;
+  padding: 6px 10px;
+  width: 205px;
+}
+
+.input-img {
+  border: 1px solid #036b52;
+  margin: 5px;
+  margin-top: 40px;
+  padding: 6px 10px;
+  width: 190px;
+}
+
+.bt {
+  background-color: #003be5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  margin: 5px;
+  margin-top: 50px;
+  padding: 8px 10px;
+  width: 100px;
+}
+
+.tryunfo {
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+.check {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.global-card h1 {
+  text-align: center;
+}
+
+.global-card {
+  background-color: #023031;
+  margin-left: 120px;
+}
+
+.titulos-compo {
+  margin-bottom: 100px;
+}
+
+.check-display {
+  display: none;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}
+
+.listSavesCards {
+  position: absolute;
+  margin-top: 800px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listSavesCards .global-card {
+  background: none;
+}
+
+.listSavesCards .titulos-compo {
+  display: none;
+}
+
+.attr1-div-unico {
+  display: flex;
+  flex-direction: row;
+  margin-left: 17px;
+}
+
+.attr1-div-unico h6 {
+  background-color: #023031;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 13px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.attr1-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 17px;
+}
+
+.attr1-div h6 {
+  background-color: #023031;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 13px;
+  margin-bottom: 3px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+@media only screen and (max-width: 850px) {
+  .global {
+    background: linear-gradient(90deg, #fafafa 50%, #fafafa 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form {
+    background-color: rgb(250, 250, 250);
+    color: #023031;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    text-align: left;
+  }
+
+  .global-card {
+    background-color: #023031;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .bt {
+    width: 350px;
+  }
+
+  .listSavesCards {
+    background-color: #023031;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .form {
+    text-align: center;
+  }
+
+  .input {
+    border: none;
+    margin: 5px;
+    padding: 6px 10px;
+    width: 250px;
+  }
+
+  .attrs {
+    width: 200px;
+  }
+
+  .input-img {
+    width: 200px;
+  }
+
+  .bt {
+    width: 200px;
+  }
+
+  .global-card {
+    background-color: #023031;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+}
