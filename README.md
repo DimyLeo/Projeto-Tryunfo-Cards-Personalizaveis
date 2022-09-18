@@ -22,9 +22,9 @@ Tive 3 dias para entregar o projeto e ser aprovado em todos os requisitos.
 ---
 ## Layout:
   
-  - O layout e design foi feito pelo Trybe, na estilização eu fiz o handover do design da Trybe que você pode ver a esquerda e a minha versão a direita.
+  - O layout e design foi feito pelo Trybe, na estilização eu fiz o handover do design da Trybe.
 
-  <img src='/src/images/projeto.gif' alt='gif-projeto' />
+  <img src='/src/images/Tryunfo.jpg' alt='gif-projeto' />
   
 ---
 Esse é o Projeto, use o site para fazer os seus proprios cards. <a href='https://dimyleo.github.io/Projeto-Tryunfo-Cards-Personalizaveis/'>SITE</a>
